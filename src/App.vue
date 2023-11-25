@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello from Aniruddha</h1>
+    <h1>Making a Todo List</h1>
     <TodoList />
   </div>
 </template>
@@ -8,7 +8,7 @@
 <script>
 import TodoList from "./components/TodoList.vue"
 export default {
-    namw: "App",
+    name: "App",
     components: {
         TodoList
     }
